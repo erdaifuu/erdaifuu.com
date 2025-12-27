@@ -5,6 +5,7 @@ type Metadata = {
   title: string
   publishedAt: string
   summary: string
+  hidden?: string
   image?: string
   headerImage?: string
   chineseName?: string
@@ -53,6 +54,7 @@ function getMDXData(dir) {
 
 export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
+  .filter((post) => post.metadata.hidden !== 'true')
 }
 
 export function formatDate(date: string, includeRelative = false) {
