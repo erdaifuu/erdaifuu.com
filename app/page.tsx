@@ -22,7 +22,7 @@ export default function Page() {
         <Contacts />
       </Popup>
 
-      <Popup
+      {/*<Popup
         title=<img 
             // change this to "Newest blog post"
             src="/images/general/blog-text.png" 
@@ -35,7 +35,7 @@ export default function Page() {
         initialZIndex={10}
       >
         <LatestBlogFeature />
-      </Popup>
+      </Popup>*/}
 
       <Popup
         title=<img 

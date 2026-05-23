@@ -7,9 +7,12 @@ const navItems = {
   '/projects': {
     name: 'projects',
   },
-  '/tea': {
-    name: 'tea',
+  '/resume': {
+    name: 'resume',
   },
+  /*'/tea': {
+    name: 'tea',
+  },*/
   '/blog': {
     name: 'blog',
   },
