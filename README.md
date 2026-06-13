@@ -10,7 +10,7 @@ TODO:
 - [ ] Update /projects descriptions and hyperlinks
 - [ ] Take a better pumidor pic
 - [ ] Implement tea.erdaifuu.com
-- [ ] Clean up /blog
+- [x] Clean up /blog
 - [ ] Make individual blogs better to read
 
 
